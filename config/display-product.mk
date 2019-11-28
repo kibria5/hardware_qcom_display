@@ -7,7 +7,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service \
     modetest \
-    gralloc.$(TARGET_BOARD_PLATFORM) \
     hwcomposer.$(TARGET_BOARD_PLATFORM) \
     libqdMetaData.vendor \
     libdisplayconfig.vendor \
