@@ -5,7 +5,7 @@ sdm-libs := sdm/libs
 display-hals := include libdebug $(sdm-libs)/utils $(sdm-libs)/core
 
 ifneq ($(TARGET_IS_HEADLESS), true)
-    display-hals += libmemtrack hdmi_cec \
+    display-hals += hdmi_cec \
                     $(sdm-libs)/hwc2 gpu_tonemapper libdrmutils
 endif
 
