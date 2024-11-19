@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7033a1cb_6081f867",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32591
+      },
+      "writtenOn": "2024-11-19T07:54:34Z",
+      "side": 1,
+      "message": "Verified on picasso (xiaomi sm7250 device)\n\nTest: build and booted. Check display \u0026\u0026 camera features. Works fine.",
+      "revId": "d2984f7ecb85fce7fa358d4afdd59a9caf7c115f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
