@@ -46,6 +46,30 @@
       },
       "revId": "58c486b7a36f8af940248d1317ad348e04478d51",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "369324b9_bba68d3d",
+        "filename": "gralloc/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-19T09:22:44Z",
+      "side": 0,
+      "message": "I have nothing against converting modules, but that needs to be done carefully so that you won\u0027t break any devices. In this particular case, ones that use TARGET_USES_YCRCB_CAMERA_PREVIEW/TARGET_NO_RAW10_CUSTOM_FORMAT/TARGET_USES_YCRCB_CAMERA_ENCODE.",
+      "parentUuid": "c7c2c9ab_f83f2ec8",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 5
+      },
+      "revId": "58c486b7a36f8af940248d1317ad348e04478d51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
