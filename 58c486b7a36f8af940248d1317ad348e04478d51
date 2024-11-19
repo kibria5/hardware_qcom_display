@@ -22,6 +22,30 @@
       },
       "revId": "58c486b7a36f8af940248d1317ad348e04478d51",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7c2c9ab_f83f2ec8",
+        "filename": "gralloc/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 32591
+      },
+      "writtenOn": "2024-11-19T09:20:38Z",
+      "side": 0,
+      "message": "Shall we convert more legacy makefile modules to blueprint like what they did to newer platform or just for this one? \nIn another word, consider only flags for libgrallocutils or for all?",
+      "parentUuid": "7f78a6e0_e5abd181",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 5
+      },
+      "revId": "58c486b7a36f8af940248d1317ad348e04478d51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
