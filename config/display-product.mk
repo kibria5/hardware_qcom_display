@@ -175,3 +175,27 @@ endif
 
 # Properties using default value:
 #    vendor.display.disable_hw_recovery=0
+
+# For libgrallocutils soong variables
+SOONG_CONFIG_qtidisplay += \
+    is_target_uses_ycrcb_camera_preview \
+    is_target_uses_ycrcb_venus_camera_preview \
+    is_target_no_raw10_custom_format \
+    is_target_uses_ycrcb_camera_encode
+
+SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_camera_preview ?= false
+SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_venus_camera_preview ?= false
+SOONG_CONFIG_qtidisplay_is_target_no_raw10_custom_format ?= false
+SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_camera_encode ?= false
+
+ifeq ($(TARGET_USES_YCRCB_CAMERA_PREVIEW),true)
+    SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_camera_preview = true
+else ifeq ($(TARGET_USES_YCRCB_VENUS_CAMERA_PREVIEW),true)
+    SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_venus_camera_preview = true
+endif
+ifeq ($(TARGET_NO_RAW10_CUSTOM_FORMAT),true)
+    SOONG_CONFIG_qtidisplay_is_target_no_raw10_custom_format = true
+endif
+ifeq ($(TARGET_USES_YCRCB_CAMERA_ENCODE),true)
+    SOONG_CONFIG_qtidisplay_is_target_uses_ycrcb_camera_encode = true
+endif
