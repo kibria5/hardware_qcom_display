@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bc051bf_5c16439c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-19T11:25:51Z",
+      "side": 1,
+      "message": "ran bpfmt -w on Android.bp files.",
+      "revId": "c4f0d00ee45554cbe73e3a6f13c0f59f3c23a8bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
