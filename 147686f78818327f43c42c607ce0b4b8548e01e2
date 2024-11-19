@@ -52,6 +52,24 @@
       "parentUuid": "2f18d96f_3217dec7",
       "revId": "147686f78818327f43c42c607ce0b4b8548e01e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5bde8ebe_287cf2c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32591
+      },
+      "writtenOn": "2024-11-19T11:31:27Z",
+      "side": 1,
+      "message": "Another question, these seems only used by sm8250 display HAL. Should we guard it for other platforms?",
+      "parentUuid": "74e39661_34c433cc",
+      "revId": "147686f78818327f43c42c607ce0b4b8548e01e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
