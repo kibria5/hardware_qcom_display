@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55f09634_b3cedaf8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32591
+      },
+      "writtenOn": "2024-11-19T14:02:40Z",
+      "side": 1,
+      "message": "Test: Build and booted on picasso",
+      "revId": "6ba5441fbe8455b9f364a55af0cf70b8f3d723c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
