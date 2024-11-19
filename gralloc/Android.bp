@@ -1,0 +1,65 @@
+soong_config_module_type {
+    name: "qtidisplay_libgrallocutils_cc_defaults",
+    module_type: "cc_defaults",
+    config_namespace: "qtidisplay",
+    bool_variables: [
+        "target_uses_ycrcb_camera_preview",
+        "target_uses_ycrcb_venus_camera_preview",
+        "target_no_raw10_custom_format",
+        "target_uses_ycrcb_camera_encode",
+    ],
+    properties: ["cflags"],
+}
+
+qtidisplay_libgrallocutils_cc_defaults {
+    name: "qtidisplay_libgrallocutils_defaults",
+    defaults: ["display_defaults"],
+    soong_config_variables: {
+        target_uses_ycrcb_camera_preview: {
+            cflags: ["-DUSE_YCRCB_CAMERA_PREVIEW"],
+        },
+        target_uses_ycrcb_venus_camera_preview: {
+            cflags: ["-DUSE_YCRCB_CAMERA_PREVIEW_VENUS"],
+        },
+        target_no_raw10_custom_format: {
+            cflags: ["-DNO_RAW10_CUSTOM_FORMAT"],
+        },
+        target_uses_ycrcb_camera_encode: {
+            cflags: ["-DUSE_YCRCB_CAMERA_ENCODE"],
+        },
+    },
+}
+
+cc_library_shared {
+    name: "libgrallocutils",
+    defaults: ["qtidisplay_libgrallocutils_defaults"],
+    vendor: true,
+    sanitize: {
+        integer_overflow: true,
+    },
+    srcs: [
+        "gr_utils.cpp",
+        "gr_adreno_info.cpp",
+        "gr_camera_info.cpp",
+    ],
+    shared_libs: [
+        "libqdMetaData",
+        "libdl",
+        "android.hardware.graphics.common@1.2",
+        "android.hardware.graphics.mapper@2.0",
+        "android.hardware.graphics.mapper@2.1",
+        "android.hardware.graphics.mapper@3.0",
+        "android.hardware.graphics.mapper@4.0",
+    ],
+    cflags: [
+        "-DLOG_TAG=\"qdgralloc\"",
+        "-D__QTI_DISPLAY_GRALLOC__",
+        "-Wno-sign-conversion",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+    ],
+    header_libs: [
+        "display_headers",
+        "device_kernel_headers",
+    ],
+}
