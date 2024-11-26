@@ -77,9 +77,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.late.app.duration=13666666 \
     debug.sf.early.app.duration=13666666 \
     debug.sf.earlyGl.app.duration=13666666 \
-    debug.sf.early.sf.duration=10500000 \
-    debug.sf.earlyGl.sf.duration=10500000 \
-    debug.sf.late.sf.duration=10500000 \
+    debug.sf.early.sf.duration=15666666 \
+    debug.sf.earlyGl.sf.duration=15666666 \
+    debug.sf.late.sf.duration=15666666 \
     vendor.display.enable_async_vds_creation=1 \
     vendor.display.enable_rounded_corner=1 \
     vendor.display.disable_3d_adaptive_tm=1 \
@@ -125,6 +125,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.set_touch_timer_ms=200
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.max_virtual_display_dimension=4096
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.game_default_frame_rate_override=60
 
 #BG blur support
 ifeq ($(TARGET_BOARD_PLATFORM),kalama)
