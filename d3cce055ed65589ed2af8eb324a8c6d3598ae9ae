@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6aff5b93_753cd697",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32591
+      },
+      "writtenOn": "2024-12-04T07:07:30Z",
+      "side": 1,
+      "message": "Just found that we modified variable names at https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/408857/1..2 , sync here",
+      "revId": "d3cce055ed65589ed2af8eb324a8c6d3598ae9ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
