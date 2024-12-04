@@ -33,6 +33,24 @@
       "message": "Should we use select instead?",
       "revId": "6ba5441fbe8455b9f364a55af0cf70b8f3d723c9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af796880_cd7b2a2c",
+        "filename": "gralloc/Android.bp",
+        "patchSetId": 7
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 32591
+      },
+      "writtenOn": "2024-12-04T06:37:49Z",
+      "side": 1,
+      "message": "Sorry for my limited knowledge of soong blueprint. Could you explain how to do that? Thank you.",
+      "parentUuid": "bdbce3d1_5b07e704",
+      "revId": "6ba5441fbe8455b9f364a55af0cf70b8f3d723c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
