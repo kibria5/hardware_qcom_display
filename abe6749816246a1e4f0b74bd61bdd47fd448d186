@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "477bf36f_cacf3ece",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32591
+      },
+      "writtenOn": "2024-12-04T11:35:02Z",
+      "side": 1,
+      "message": "Thanks to luk let me know how to use select",
+      "revId": "abe6749816246a1e4f0b74bd61bdd47fd448d186",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
