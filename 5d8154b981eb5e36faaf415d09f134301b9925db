@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86d8a854_d240717e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T20:51:35Z",
+      "side": 1,
+      "message": "builds and boots fine with I3719a100caa3535d3f2c27f4d2a0b9f75674d1d7",
+      "revId": "5d8154b981eb5e36faaf415d09f134301b9925db",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
