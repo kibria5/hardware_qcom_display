@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdba79b0_bc70a9e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32591
+      },
+      "writtenOn": "2024-12-04T08:44:57Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_hardware_qcom_display/+/408811/comment/bdbce3d1_5b07e704/\n\nHe said we should consider use select. I’m not sure how to do. Any ideas?",
+      "revId": "7c04fc474ff76b900fcb632679b64b09c84e17dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
