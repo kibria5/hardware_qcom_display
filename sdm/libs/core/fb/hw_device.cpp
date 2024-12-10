@@ -252,19 +252,19 @@ DisplayError HWDevice::Validate(HWLayers *hw_layers) {
         mdp_layer.rect_num = pipe_info->rect;
 #endif
 
-#ifdef DISPLAY_SHIFT_HORIZONTAL
-        if (device_type_ == kDevicePrimary) {
-          pipe_info->dst_roi.left += DISPLAY_SHIFT_HORIZONTAL;
-          pipe_info->dst_roi.right += DISPLAY_SHIFT_HORIZONTAL;
+        if (DISPLAY_SHIFT_HORIZONTAL > 0) {
+          if (device_type_ == kDevicePrimary) {
+            pipe_info->dst_roi.left += DISPLAY_SHIFT_HORIZONTAL;
+            pipe_info->dst_roi.right += DISPLAY_SHIFT_HORIZONTAL;
+          }
         }
-#endif
 
-#ifdef DISPLAY_SHIFT_VERTICAL
-        if (device_type_ == kDevicePrimary) {
-          pipe_info->dst_roi.top += DISPLAY_SHIFT_VERTICAL;
-          pipe_info->dst_roi.bottom += DISPLAY_SHIFT_VERTICAL;
+        if (DISPLAY_SHIFT_VERTICAL > 0) {
+          if (device_type_ == kDevicePrimary) {
+            pipe_info->dst_roi.top += DISPLAY_SHIFT_VERTICAL;
+            pipe_info->dst_roi.bottom += DISPLAY_SHIFT_VERTICAL;
+          }
         }
-#endif
 
         SetRect(pipe_info->src_roi, &mdp_layer.src_rect);
         SetRect(pipe_info->dst_roi, &mdp_layer.dst_rect);
