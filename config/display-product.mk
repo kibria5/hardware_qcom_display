@@ -7,7 +7,7 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service \
     modetest \
-    hwcomposer.$(TARGET_BOARD_PLATFORM) \
+    hwcomposer.qcom \
     libqdMetaData.vendor \
     libdisplayconfig.vendor \
     libdisplayconfig.qti.vendor \
