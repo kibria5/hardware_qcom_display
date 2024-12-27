@@ -9,7 +9,7 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service \
     modetest \
     gralloc.sdm710 \
-    hwcomposer.sdm710 \
+    hwcomposer.qcom \
     libqdutils \
     libqdMetaData
 
