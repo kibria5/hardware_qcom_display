@@ -16,6 +16,23 @@
       "message": "Builds and boots fine with ELF checks enabled on msm8953 (based on Android 10 blobs)",
       "revId": "57b303c011e81bf590237f1fa67ecc35a3a6bf8f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "104f05ac_e2d147c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2024-12-27T15:00:34Z",
+      "side": 1,
+      "message": "bump",
+      "revId": "57b303c011e81bf590237f1fa67ecc35a3a6bf8f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
