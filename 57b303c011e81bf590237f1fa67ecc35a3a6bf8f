@@ -33,6 +33,23 @@
       "message": "bump",
       "revId": "57b303c011e81bf590237f1fa67ecc35a3a6bf8f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4974cff2_ca2dfedc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-12-27T15:28:07Z",
+      "side": 1,
+      "message": "Can you pick https://review.lineageos.org/c/LineageOS/android_hardware_qcom_display/+/412914/ before this?",
+      "revId": "57b303c011e81bf590237f1fa67ecc35a3a6bf8f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
