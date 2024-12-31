@@ -1,4 +1,36 @@
 cc_library_shared {
+    name: "gralloc.qcom",
+    defaults: ["display_defaults"],
+    vendor: true,
+    relative_install_path: "hw",
+    srcs: [
+        "gr_ion_alloc.cpp",
+        "gr_allocator.cpp",
+        "gr_buf_mgr.cpp",
+        "gr_device_impl.cpp",
+    ],
+    shared_libs: [
+        "libqdMetaData",
+        "libsync",
+        "libgrallocutils",
+        "android.hardware.graphics.common@1.1",
+    ],
+    cflags: [
+        "-DLOG_TAG=\"qdgralloc\"",
+    ] + select(soong_config_variable("qtidisplay", "target_uses_ycrcb_camera_preview"), {
+        "true": ["-DUSE_YCRCB_CAMERA_PREVIEW"],
+        default: [],
+    }) + select(soong_config_variable("qtidisplay", "target_uses_ycrcb_venus_camera_preview"), {
+        "true": ["-DUSE_YCRCB_CAMERA_PREVIEW_VENUS"],
+        default: [],
+    }),
+    header_libs: [
+        "display_headers",
+        "qti_kernel_headers",
+    ],
+}
+
+cc_library_shared {
     name: "libgrallocutils",
     defaults: ["display_defaults"],
     vendor: true,
