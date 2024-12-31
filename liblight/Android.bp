@@ -1,0 +1,20 @@
+soong_namespace {
+}
+
+target_board_platform_cc_library_shared {
+    name: "lights.qcom",
+    soong_config_variables: {
+        target_board_platform: {
+            name: "lights.%s",
+            conditions_default: {
+                name: "lights.qcom",
+            },
+        },
+    },
+    srcs: ["lights.c"],
+    relative_install_path: "hw",
+    header_libs: ["libhardware_headers"],
+    shared_libs: ["liblog"],
+    cflags: ["-DLOG_TAG=\"qdlights\""],
+    vendor: true,
+}
