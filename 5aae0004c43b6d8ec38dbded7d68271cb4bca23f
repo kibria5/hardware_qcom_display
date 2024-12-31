@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6604ef6a_88b032c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-12-31T03:52:11Z",
+      "side": 1,
+      "message": "sdm/libs/hwc/hwc_buffer_allocator.h is needed tho?",
+      "revId": "5aae0004c43b6d8ec38dbded7d68271cb4bca23f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
