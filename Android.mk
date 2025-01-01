@@ -11,9 +11,6 @@ endif
 
 display-hals += gralloc
 
-ifneq ($(TARGET_PROVIDES_LIBLIGHT),true)
-    display-hals += liblight
-endif
 endif #TARGET_DISABLE_DISPLAY
 ifneq ($(TARGET_IS_HEADLESS), true)
     display-hals += libcopybit
