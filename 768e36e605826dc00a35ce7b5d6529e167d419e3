@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b875982_e7a42d8a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-01-07T20:17:29Z",
+      "side": 1,
+      "message": "only msm8996 is listed in MASTER_SIDE_CP_TARGET_LIST\n\nmsm8937 is a slave side secure target, msm8953 too i guess",
+      "revId": "768e36e605826dc00a35ce7b5d6529e167d419e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
