@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0414a40_d319eeba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-01-07T21:31:22Z",
+      "side": 1,
+      "message": "Haven\u0027t see any regression on msm8953.",
+      "revId": "8a54855a616269ffca521b6e17e6b67e8b4b0de0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
