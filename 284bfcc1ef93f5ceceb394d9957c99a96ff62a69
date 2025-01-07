@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b149b67c_703d127f",
+        "filename": "common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-01-07T21:34:17Z",
+      "side": 0,
+      "message": "needs to handle that for msm8996 (not to bring back 414657)",
+      "revId": "284bfcc1ef93f5ceceb394d9957c99a96ff62a69",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
