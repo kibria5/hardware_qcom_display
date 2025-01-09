@@ -33,6 +33,23 @@
       "message": "Xiaomi sm6150 also likes this",
       "revId": "da26b468f3a73eabef5f5a80e152e336cbea1805",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94940c4b_6de6119a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-01-09T19:40:30Z",
+      "side": 1,
+      "message": "only needed on sm8150 or other platforms?",
+      "revId": "da26b468f3a73eabef5f5a80e152e336cbea1805",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
