@@ -50,6 +50,23 @@
       "message": "only needed on sm8150 or other platforms?",
       "revId": "da26b468f3a73eabef5f5a80e152e336cbea1805",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee20e9c1_1e193b43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-09T20:22:21Z",
+      "side": 1,
+      "message": "That\u0027s unfortunate but we can\u0027t fix blobs",
+      "revId": "da26b468f3a73eabef5f5a80e152e336cbea1805",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
