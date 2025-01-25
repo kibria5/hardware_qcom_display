@@ -45,7 +45,10 @@ cc_library_shared {
 //libgralloccore
 cc_library_shared {
     name: "libgralloccore",
-    defaults: ["display_defaults"],
+    defaults: [
+        "display_defaults",
+        "gralloc_handle_has_reserved_size_defaults",
+    ],
     vendor: true,
     header_libs: [
         "display_headers",
