@@ -16,6 +16,24 @@
       "message": "They added -Wno-sign-conversion to common.mk https://katb.in/zukobejafah/raw, should I add that somewhere else?",
       "revId": "fdf278e55a6ae40a1556b19248ae30b8d25992d3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "515c8547_01137cc6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-29T17:00:01Z",
+      "side": 1,
+      "message": "If it builds, you don\u0027t need to add it. I think we added it long time ago so it should already be in places where it\u0027s needed. Does this tag have matching sdm blobs?",
+      "parentUuid": "1909b4de_7c1c0d5a",
+      "revId": "fdf278e55a6ae40a1556b19248ae30b8d25992d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
