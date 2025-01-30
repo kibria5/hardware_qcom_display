@@ -34,6 +34,24 @@
       "parentUuid": "1909b4de_7c1c0d5a",
       "revId": "fdf278e55a6ae40a1556b19248ae30b8d25992d3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a616e9e_45bd38da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-01-30T17:45:41Z",
+      "side": 1,
+      "message": "Cool, it does build and work fine for me. Almost all of these changes are from 2022 (LA.UM.9.1.r1-12000-SMxxx0.QSSI13.0, LA.UM.9.1.c11-40300-SMxxx0.QSSI13.0), I just fetched and merged the latest tag. The blobs I have from stock seem to work fine.",
+      "parentUuid": "515c8547_01137cc6",
+      "revId": "fdf278e55a6ae40a1556b19248ae30b8d25992d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
