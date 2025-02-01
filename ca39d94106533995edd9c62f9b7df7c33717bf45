@@ -34,6 +34,24 @@
       "parentUuid": "6976bcce_b1cdde84",
       "revId": "ca39d94106533995edd9c62f9b7df7c33717bf45",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7d781cd_2321a2c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-01T09:49:58Z",
+      "side": 1,
+      "message": "you can\u0027t change the change id from gerrit ui.",
+      "parentUuid": "6bbbd1b6_a192e4ff",
+      "revId": "ca39d94106533995edd9c62f9b7df7c33717bf45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
